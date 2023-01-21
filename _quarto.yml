@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "Webmaps"
+  author: "Robin Kohrs"
+  date: "1/21/2023"
+  chapters:
+    - index.qmd
+    - mapbox.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
